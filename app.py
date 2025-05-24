@@ -476,4 +476,4 @@ else:  # Real-time Prediction
                 else:
                     st.success("✅ Transaction appears normal")
                 
-                st.metric("Anomaly Score", f"{score:.4f}") 
+                st.metric("Anomaly Score", f"{score:.4f}")
