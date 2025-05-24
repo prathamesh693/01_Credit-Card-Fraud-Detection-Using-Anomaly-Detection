@@ -41,7 +41,7 @@ The dataset is available for download from [Kaggle's Credit Card Fraud Detection
 
 ## ⚙️ How to Run the Project Locally
 
-### 1. Clone the Repository:
+### Clone the Repository:
 First, clone the repository to your local machine using the following command:
 ```bash
 git clone https://github.com/prathamesh693/01_Credit-Card-Fraud-Detection-Using-Anomaly-Detection.git
