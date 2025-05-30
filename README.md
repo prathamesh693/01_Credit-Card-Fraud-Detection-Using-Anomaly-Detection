@@ -1,6 +1,8 @@
 # 💳 Credit Card Fraud Detection Using Anomaly Detection  
 **⚠️ Identify fraudulent transactions in real-time using ML**
 
+This project aims to detect fraudulent transactions in credit card usage using machine learning techniques. Fraud detection is a classic example of anomaly detection and is crucial for minimizing financial losses and ensuring the security of financial systems.
+
 ---
 
 ## 📚 Table of Contents  
