@@ -84,16 +84,6 @@ The goal is to build an anomaly detection system using unsupervised learning tec
 
 ---
 
-## ⚙️ How to Run the Project Locally  
-
-### 1. Clone the Repository:
-First, clone the repository to your local machine using the following command:
-```bash
-git clone https://github.com/prathamesh693/01_Credit-Card-Fraud-Detection-Using-Anomaly-Detection.git
-cd:01_Credit-Card-Fraud-Detection-Using-Anomaly-Detection
-
----
-
 ## 🔗 References  
 The dataset is available for download from [Kaggle's Credit Card Fraud Detection Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud).
 
@@ -102,5 +92,3 @@ The dataset is available for download from [Kaggle's Credit Card Fraud Detection
 ## 🤝 Connect With Me  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Prathamesh%20Jadhav-blue?logo=linkedin)](https://www.linkedin.com/in/prathamesh-jadhav-78b02523a/)  
 [![GitHub](https://img.shields.io/badge/GitHub-Prathamesh%20Jadhav-2b3137?logo=github)](https://github.com/prathamesh693)
-
----
