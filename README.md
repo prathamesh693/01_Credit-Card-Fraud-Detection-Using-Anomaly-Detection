@@ -1,47 +1,106 @@
-# Credit Card Fraud Detection Using Anomaly Detection
-
-## 📗 Project Overview
-
-This project implements a **Credit Card Fraud Detection** system using **Anomaly Detection** techniques. It utilizes machine learning models like **Isolation Forest** and **One-Class SVM** to identify fraudulent credit card transactions from a dataset. The project covers the entire machine learning pipeline, including data preprocessing, exploratory data analysis (EDA), model training, evaluation, and real-time predictions.
-
-### Key Features:
-- **Data Preprocessing**: Upload and preprocess credit card transaction data.
-- **Exploratory Data Analysis**: Perform visual analysis of the dataset using interactive charts and metrics.
-- **Model Training**: Train fraud detection models (Isolation Forest, One-Class SVM) using the processed data.
-- **Model Evaluation**: Evaluate model performance using confusion matrix, classification report, and anomaly score distribution.
-- **Real-time Prediction**: Predict whether a new credit card transaction is fraudulent or not in real time.
+# 💳 Credit Card Fraud Detection Using Anomaly Detection  
+**⚠️ Identify fraudulent transactions in real-time using ML**
 
 ---
 
-## 🛠️ Technologies Used
-
-- **Python**
-- **Streamlit** for the web application interface
-- **Scikit-learn** for machine learning models
-- **Pandas** for data manipulation
-- **NumPy** for numerical operations
-- **Matplotlib** and **Seaborn** for data visualization
-- **Plotly** for interactive visualizations
-- **Joblib** for saving and loading trained models
+## 📚 Table of Contents  
+- [Problem Statement](#problem-statement)  
+- [Objectives](#objectives)  
+- [Challenges](#challenges)  
+- [Project Lifecycle](#project-lifecycle)  
+- [Tools and Technologies](#tools-and-technologies)  
+- [Success Criteria](#success-criteria)  
+- [How to Run the Project Locally](#how-to-run-the-project-locally)  
+- [References](#references)  
+- [Connect With Me](#connect-with-me)
 
 ---
 
-## 📊 Dataset
+## 📌 Problem Statement  
+Credit card fraud is a major concern in the financial industry, with billions of dollars lost annually. The key challenge in fraud detection is to identify fraudulent transactions from highly imbalanced datasets where fraud represents a tiny fraction of all records.
 
-The dataset used in this project is based on credit card transactions and contains features like:
+The goal is to build an anomaly detection system using unsupervised learning techniques that can accurately identify fraudulent transactions while minimizing false positives, suitable for real-time deployment.
 
-- **Time**: The number of seconds elapsed between this transaction and the first transaction in the dataset.
-- **V1-V28**: 28 anonymized features resulting from a PCA transformation.
-- **Amount**: The transaction amount.
-- **Class**: 1 for fraud and 0 for a normal transaction.
+---
 
+## 🎯 Objectives  
+- Analyze characteristics of fraudulent vs. legitimate transactions  
+- Build models using:  
+  - Isolation Forest  
+  - One-Class SVM  
+- Evaluate with precision, recall, F1-score, AUC-ROC  
+- Deploy a real-time detection interface using Streamlit
+
+---
+
+## ⚠️ Challenges  
+- Extreme class imbalance  
+- Anonymized dataset features (less interpretability)  
+- Need for real-time inference  
+- Managing false positives vs. detection rate trade-off
+
+---
+
+## 🛠️ Project Lifecycle  
+
+1. **Problem Definition**  
+   - Define use case and success criteria  
+2. **Data Acquisition & Understanding**  
+   - Use public Kaggle dataset on credit card transactions  
+3. **Exploratory Data Analysis (EDA)**  
+   - Analyze transaction patterns, detect outliers  
+4. **Modeling**  
+   - Apply Isolation Forest and One-Class SVM  
+5. **Evaluation**  
+   - Use precision, recall, F1, ROC-AUC for comparison  
+6. **Deployment**  
+   - Deploy best model using a Streamlit web app  
+7. **Monitoring**  
+   - Prepare retraining and drift detection pipeline  
+
+---
+
+## 💻 Tools and Technologies  
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Seaborn-44A8B3?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" />
+  <img src="https://img.shields.io/badge/Joblib-008000?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+</p>
+
+---
+
+## ✔️ Success Criteria  
+- F1-score > 0.85 on test data  
+- Real-time prediction latency < 1 second  
+- Streamlit interface for live testing  
+- Monitoring and retraining ready for production scaling  
+
+---
+
+## ⚙️ How to Run the Project Locally  
+
+### 1. Clone the Repository:
+First, clone the repository to your local machine using the following command:
+```bash
+git clone https://github.com/prathamesh693/01_Credit-Card-Fraud-Detection-Using-Anomaly-Detection.git
+cd:01_Credit-Card-Fraud-Detection-Using-Anomaly-Detection
+
+---
+
+## 🔗 References  
 The dataset is available for download from [Kaggle's Credit Card Fraud Detection Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud).
 
 ---
 
-## ⚙️ How to Run the Project Locally
+## 🤝 Connect With Me  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Prathamesh%20Jadhav-blue?logo=linkedin)](https://www.linkedin.com/in/prathamesh-jadhav-78b02523a/)  
+[![GitHub](https://img.shields.io/badge/GitHub-Prathamesh%20Jadhav-2b3137?logo=github)](https://github.com/prathamesh693)
 
-### Clone the Repository:
-First, clone the repository to your local machine using the following command:
-```bash
-git clone https://github.com/prathamesh693/01_Credit-Card-Fraud-Detection-Using-Anomaly-Detection.git
+---
